@@ -1751,11 +1751,16 @@
 			(embedded_fonts no)
 		)
 	)
-	(junction
-		(at 68.58 144.78)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1177b777-3d68-456e-afa0-3cc4b4141618")
+	(text "V_{F} = 1,8V @ 2,5mA\nI_{LED} = (24V - V_{F}) / R\nI_{LED} = (24V - 1.8V) / 9.1k\nI_{LED} = 2.44 mA"
+		(exclude_from_sim no)
+		(at 63.5 161.29 0)
+		(effects
+			(font
+				(size 1.5 1.5)
+			)
+			(justify left bottom)
+		)
+		(uuid "613c0884-a8ad-4c3e-b7b6-68210780dd2e")
 	)
 	(junction
 		(at 189.23 68.58)
@@ -1854,12 +1859,6 @@
 		(uuid "c9a695ae-5d37-46ca-ad7b-1a41e9e9732c")
 	)
 	(junction
-		(at 162.56 147.32)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ca1c893c-4df2-4d83-91ab-45a4c5ecc942")
-	)
-	(junction
 		(at 171.45 147.32)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1896,10 +1895,22 @@
 		(uuid "db19d1d9-ad32-4b01-a2ed-e9e3b78ae730")
 	)
 	(junction
+		(at 162.56 147.32)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ed184675-dc9d-4d3d-9143-332a28b6b2dd")
+	)
+	(junction
 		(at 68.58 93.98)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f4f063ee-4aac-42f5-b3c2-7a2681308c72")
+	)
+	(junction
+		(at 68.58 144.78)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f5e3ae91-de0c-4042-a1a3-42d1ba385a00")
 	)
 	(wire
 		(pts
@@ -1923,7 +1934,7 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 144.78) (xy 68.58 144.78)
+			(xy 48.26 144.78) (xy 68.58 144.78)
 		)
 		(stroke
 			(width 0)
@@ -2173,7 +2184,7 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 144.78) (xy 53.34 99.06)
+			(xy 48.26 144.78) (xy 48.26 99.06)
 		)
 		(stroke
 			(width 0)
@@ -2353,7 +2364,7 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 147.32) (xy 162.56 147.32)
+			(xy 45.72 147.32) (xy 162.56 147.32)
 		)
 		(stroke
 			(width 0)
@@ -2393,7 +2404,7 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 99.06) (xy 33.02 99.06)
+			(xy 48.26 99.06) (xy 33.02 99.06)
 		)
 		(stroke
 			(width 0)
@@ -2683,7 +2694,7 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 101.6) (xy 33.02 101.6)
+			(xy 45.72 101.6) (xy 33.02 101.6)
 		)
 		(stroke
 			(width 0)
@@ -2803,7 +2814,7 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 147.32) (xy 50.8 101.6)
+			(xy 45.72 147.32) (xy 45.72 101.6)
 		)
 		(stroke
 			(width 0)
@@ -3180,7 +3191,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "GREEN"
+		(property "Value" "ORANGE/0603"
 			(at 160.02 140.97 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3224,7 +3235,7 @@
 				)
 			)
 		)
-		(property "Mfr" "Everlight"
+		(property "Mfr" "Everlight Elec"
 			(at 162.56 140.97 0)
 			(hide yes)
 			(show_name no)
@@ -3235,7 +3246,7 @@
 				)
 			)
 		)
-		(property "Mfr PN" "19-217/GHC-YR1S2/3T"
+		(property "Mfr PN" "19-217/S2C-AL1M2VY/6T"
 			(at 162.56 140.97 0)
 			(hide yes)
 			(show_name no)
@@ -3268,7 +3279,7 @@
 				)
 			)
 		)
-		(property "Vendor PN" "C72043"
+		(property "Vendor PN" "C2987557"
 			(at 162.56 140.97 0)
 			(hide yes)
 			(show_name no)
@@ -3279,7 +3290,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C72043"
+		(property "LCSC Part #" "C2987557"
 			(at 160.02 143.51 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4077,7 +4088,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "10k/125mW"
+		(property "Value" "9.1k/125mW"
 			(at 66.04 71.12 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4143,7 +4154,7 @@
 				)
 			)
 		)
-		(property "Mfr PN" "0805W8F1002T5E"
+		(property "Mfr PN" "0805W8F9101T5E"
 			(at 68.58 71.12 0)
 			(hide yes)
 			(show_name no)
@@ -4165,7 +4176,7 @@
 				)
 			)
 		)
-		(property "Vendor PN" "C17414"
+		(property "Vendor PN" "C17855"
 			(at 68.58 71.12 0)
 			(hide yes)
 			(show_name no)
@@ -4176,7 +4187,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C17414"
+		(property "LCSC Part #" "C17855"
 			(at 66.04 73.66 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4401,7 +4412,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "GREEN"
+		(property "Value" "ORANGE/0603"
 			(at 66.04 138.43 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4445,7 +4456,7 @@
 				)
 			)
 		)
-		(property "Mfr" "Everlight"
+		(property "Mfr" "Everlight Elec"
 			(at 68.58 138.43 0)
 			(hide yes)
 			(show_name no)
@@ -4456,7 +4467,7 @@
 				)
 			)
 		)
-		(property "Mfr PN" "19-217/GHC-YR1S2/3T"
+		(property "Mfr PN" "19-217/S2C-AL1M2VY/6T"
 			(at 68.58 138.43 0)
 			(hide yes)
 			(show_name no)
@@ -4489,7 +4500,7 @@
 				)
 			)
 		)
-		(property "Vendor PN" "C72043"
+		(property "Vendor PN" "C2987557"
 			(at 68.58 138.43 0)
 			(hide yes)
 			(show_name no)
@@ -4500,7 +4511,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C72043"
+		(property "LCSC Part #" "C2987557"
 			(at 66.04 140.97 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4581,7 +4592,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "10k/125mW"
+		(property "Value" "9.1k/125mW"
 			(at 66.04 121.92 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4647,7 +4658,7 @@
 				)
 			)
 		)
-		(property "Mfr PN" "0805W8F1002T5E"
+		(property "Mfr PN" "0805W8F9101T5E"
 			(at 68.58 121.92 0)
 			(hide yes)
 			(show_name no)
@@ -4669,7 +4680,7 @@
 				)
 			)
 		)
-		(property "Vendor PN" "C17414"
+		(property "Vendor PN" "C17855"
 			(at 68.58 121.92 0)
 			(hide yes)
 			(show_name no)
@@ -4680,7 +4691,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C17414"
+		(property "LCSC Part #" "C17855"
 			(at 66.04 124.46 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5395,7 +5406,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "10k/125mW"
+		(property "Value" "9.1k/125mW"
 			(at 160.02 125.73 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5461,7 +5472,7 @@
 				)
 			)
 		)
-		(property "Mfr PN" "0805W8F1002T5E"
+		(property "Mfr PN" "0805W8F9101T5E"
 			(at 162.56 125.73 0)
 			(hide yes)
 			(show_name no)
@@ -5483,7 +5494,7 @@
 				)
 			)
 		)
-		(property "Vendor PN" "C17414"
+		(property "Vendor PN" "C17855"
 			(at 162.56 125.73 0)
 			(hide yes)
 			(show_name no)
@@ -5494,7 +5505,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C17414"
+		(property "LCSC Part #" "C17855"
 			(at 160.02 128.27 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5564,7 +5575,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "GREEN"
+		(property "Value" "ORANGE/0603"
 			(at 66.04 87.63 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5608,7 +5619,7 @@
 				)
 			)
 		)
-		(property "Mfr" "Everlight"
+		(property "Mfr" "Everlight Elec"
 			(at 68.58 87.63 0)
 			(hide yes)
 			(show_name no)
@@ -5619,7 +5630,7 @@
 				)
 			)
 		)
-		(property "Mfr PN" "19-217/GHC-YR1S2/3T"
+		(property "Mfr PN" "19-217/S2C-AL1M2VY/6T"
 			(at 68.58 87.63 0)
 			(hide yes)
 			(show_name no)
@@ -5652,7 +5663,7 @@
 				)
 			)
 		)
-		(property "Vendor PN" "C72043"
+		(property "Vendor PN" "C2987557"
 			(at 68.58 87.63 0)
 			(hide yes)
 			(show_name no)
@@ -5663,7 +5674,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C72043"
+		(property "LCSC Part #" "C2987557"
 			(at 66.04 90.17 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6145,7 +6156,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "10k/125mW"
+		(property "Value" "9.1k/125mW"
 			(at 160.02 74.93 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6211,7 +6222,7 @@
 				)
 			)
 		)
-		(property "Mfr PN" "0805W8F1002T5E"
+		(property "Mfr PN" "0805W8F9101T5E"
 			(at 162.56 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -6233,7 +6244,7 @@
 				)
 			)
 		)
-		(property "Vendor PN" "C17414"
+		(property "Vendor PN" "C17855"
 			(at 162.56 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -6244,7 +6255,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C17414"
+		(property "LCSC Part #" "C17855"
 			(at 160.02 77.47 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6852,7 +6863,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "GREEN"
+		(property "Value" "ORANGE/0603"
 			(at 160.02 90.17 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6896,7 +6907,7 @@
 				)
 			)
 		)
-		(property "Mfr" "Everlight"
+		(property "Mfr" "Everlight Elec"
 			(at 162.56 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -6907,7 +6918,7 @@
 				)
 			)
 		)
-		(property "Mfr PN" "19-217/GHC-YR1S2/3T"
+		(property "Mfr PN" "19-217/S2C-AL1M2VY/6T"
 			(at 162.56 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -6940,7 +6951,7 @@
 				)
 			)
 		)
-		(property "Vendor PN" "C72043"
+		(property "Vendor PN" "C2987557"
 			(at 162.56 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -6951,7 +6962,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C72043"
+		(property "LCSC Part #" "C2987557"
 			(at 160.02 92.71 90)
 			(show_name no)
 			(do_not_autoplace no)
