@@ -6038,7 +6038,7 @@
 				)
 			)
 		)
-		(property "Technology" "MOV"
+		(property "Technology" ""
 			(at 209.55 132.08 0)
 			(hide yes)
 			(show_name no)
@@ -6579,7 +6579,7 @@
 				)
 			)
 		)
-		(property "Technology" "MOV"
+		(property "Technology" ""
 			(at 220.98 62.23 0)
 			(hide yes)
 			(show_name no)
@@ -6760,7 +6760,7 @@
 				)
 			)
 		)
-		(property "Technology" "MOV"
+		(property "Technology" ""
 			(at 203.2 62.23 0)
 			(hide yes)
 			(show_name no)
@@ -7133,7 +7133,7 @@
 				)
 			)
 		)
-		(property "Technology" "MOV"
+		(property "Technology" ""
 			(at 121.92 62.23 0)
 			(hide yes)
 			(show_name no)
@@ -7829,7 +7829,7 @@
 				)
 			)
 		)
-		(property "Technology" "MOV"
+		(property "Technology" ""
 			(at 227.33 132.08 0)
 			(hide yes)
 			(show_name no)
@@ -8742,7 +8742,7 @@
 				)
 			)
 		)
-		(property "Technology" "MOV"
+		(property "Technology" ""
 			(at 104.14 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -9113,7 +9113,7 @@
 				)
 			)
 		)
-		(property "Technology" "MOV"
+		(property "Technology" ""
 			(at 130.81 132.08 0)
 			(hide yes)
 			(show_name no)
@@ -9294,7 +9294,7 @@
 				)
 			)
 		)
-		(property "Technology" "MOV"
+		(property "Technology" ""
 			(at 113.03 124.46 0)
 			(hide yes)
 			(show_name no)

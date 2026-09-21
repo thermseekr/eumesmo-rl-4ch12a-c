@@ -689,7 +689,7 @@
           "group_by": false,
           "label": "Case",
           "name": "Case",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
@@ -731,7 +731,7 @@
           "group_by": false,
           "label": "Technology",
           "name": "Technology",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
