@@ -3301,8 +3301,8 @@
 				(justify left)
 			)
 		)
-		(property "JLCPCB BOM" "1"
-			(at 162.56 140.97 0)
+		(property "Case" ""
+			(at 162.56 140.97 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3312,8 +3312,8 @@
 				)
 			)
 		)
-		(property "Package" "0603/1608"
-			(at 162.56 140.97 0)
+		(property "FT Position Offset" ""
+			(at 162.56 140.97 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3323,8 +3323,8 @@
 				)
 			)
 		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 162.56 140.97 0)
+		(property "FT Rotation Offset" ""
+			(at 162.56 140.97 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3482,8 +3482,8 @@
 				(justify left)
 			)
 		)
-		(property "JLCPCB BOM" "1"
-			(at 77.47 80.01 0)
+		(property "Case" ""
+			(at 77.47 80.01 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3493,8 +3493,8 @@
 				)
 			)
 		)
-		(property "Package" "SOD-123"
-			(at 77.47 80.01 0)
+		(property "FT Position Offset" ""
+			(at 77.47 80.01 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3504,19 +3504,8 @@
 				)
 			)
 		)
-		(property "Sim.Device" "D"
-			(at 77.47 80.01 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 77.47 80.01 0)
+		(property "FT Rotation Offset" ""
+			(at 77.47 80.01 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3608,17 +3597,6 @@
 				)
 			)
 		)
-		(property "JLCPCB BOM" "1"
-			(at 100.33 129.54 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "LCSC Part #" "C185801"
 			(at 111.76 130.81 0)
 			(show_name no)
@@ -3652,17 +3630,6 @@
 				)
 			)
 		)
-		(property "Package" ""
-			(at 100.33 129.54 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Technology" ""
 			(at 100.33 129.54 0)
 			(hide yes)
@@ -3686,6 +3653,39 @@
 			)
 		)
 		(property "Vendor PN" "C185801"
+			(at 100.33 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Case" ""
+			(at 100.33 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "FT Position Offset" ""
+			(at 100.33 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "FT Rotation Offset" ""
 			(at 100.33 129.54 0)
 			(hide yes)
 			(show_name no)
@@ -3781,29 +3781,7 @@
 				)
 			)
 		)
-		(property "JLCPCB BOM" "1"
-			(at 27.94 99.06 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Mfr" "Wago"
-			(at 27.94 99.06 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Package" ""
 			(at 27.94 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -3859,6 +3837,39 @@
 			)
 		)
 		(property "Vendor PN" "C2765063"
+			(at 27.94 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Case" ""
+			(at 27.94 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "FT Position Offset" ""
+			(at 27.94 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "FT Rotation Offset" ""
 			(at 27.94 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -3957,17 +3968,6 @@
 				)
 			)
 		)
-		(property "JLCPCB BOM" "1"
-			(at 194.31 81.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "LCSC Part #" "C185801"
 			(at 205.74 82.55 0)
 			(show_name no)
@@ -4001,17 +4001,6 @@
 				)
 			)
 		)
-		(property "Package" ""
-			(at 194.31 81.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Technology" ""
 			(at 194.31 81.28 0)
 			(hide yes)
@@ -4035,6 +4024,39 @@
 			)
 		)
 		(property "Vendor PN" "C185801"
+			(at 194.31 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Case" ""
+			(at 194.31 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "FT Position Offset" ""
+			(at 194.31 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "FT Rotation Offset" ""
 			(at 194.31 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -4198,7 +4220,7 @@
 				(justify right)
 			)
 		)
-		(property "JLCPCB BOM" "1"
+		(property "Case" ""
 			(at 68.58 71.12 0)
 			(hide yes)
 			(show_name no)
@@ -4209,7 +4231,18 @@
 				)
 			)
 		)
-		(property "Package" "0805/2012"
+		(property "FT Position Offset" ""
+			(at 68.58 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "FT Rotation Offset" ""
 			(at 68.58 71.12 0)
 			(hide yes)
 			(show_name no)
@@ -4522,8 +4555,8 @@
 				(justify left)
 			)
 		)
-		(property "JLCPCB BOM" "1"
-			(at 68.58 138.43 0)
+		(property "Case" ""
+			(at 68.58 138.43 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4533,8 +4566,8 @@
 				)
 			)
 		)
-		(property "Package" "0603/1608"
-			(at 68.58 138.43 0)
+		(property "FT Position Offset" ""
+			(at 68.58 138.43 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4544,8 +4577,8 @@
 				)
 			)
 		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 68.58 138.43 0)
+		(property "FT Rotation Offset" ""
+			(at 68.58 138.43 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4702,7 +4735,7 @@
 				(justify right)
 			)
 		)
-		(property "JLCPCB BOM" "1"
+		(property "Case" ""
 			(at 68.58 121.92 0)
 			(hide yes)
 			(show_name no)
@@ -4713,7 +4746,18 @@
 				)
 			)
 		)
-		(property "Package" "0805/2012"
+		(property "FT Position Offset" ""
+			(at 68.58 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "FT Rotation Offset" ""
 			(at 68.58 121.92 0)
 			(hide yes)
 			(show_name no)
@@ -4803,29 +4847,7 @@
 				)
 			)
 		)
-		(property "JLCPCB BOM" "1"
-			(at 27.94 74.93 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Mfr" "Wago"
-			(at 27.94 74.93 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Package" ""
 			(at 27.94 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -4881,6 +4903,39 @@
 			)
 		)
 		(property "Vendor PN" "C2765061"
+			(at 27.94 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Case" ""
+			(at 27.94 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "FT Position Offset" ""
+			(at 27.94 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "FT Rotation Offset" ""
 			(at 27.94 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -4973,17 +5028,6 @@
 				)
 			)
 		)
-		(property "JLCPCB BOM" "1"
-			(at 256.54 64.77 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "LCSC Part #" "C2898701"
 			(at 256.54 64.77 0)
 			(hide yes)
@@ -5017,17 +5061,6 @@
 				)
 			)
 		)
-		(property "Package" ""
-			(at 256.54 64.77 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Technology" ""
 			(at 256.54 64.77 0)
 			(hide yes)
@@ -5051,6 +5084,39 @@
 			)
 		)
 		(property "Vendor PN" "C2898701"
+			(at 256.54 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Case" ""
+			(at 256.54 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "FT Position Offset" ""
+			(at 256.54 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "FT Rotation Offset" "180"
 			(at 256.54 64.77 0)
 			(hide yes)
 			(show_name no)
@@ -5281,28 +5347,6 @@
 				)
 			)
 		)
-		(property "JLCPCB BOM" "1"
-			(at 226.06 132.08 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Package" "9.5X5.08mm"
-			(at 226.06 132.08 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "LCSC Part #" "C2761646"
 			(at 226.06 132.08 0)
 			(hide yes)
@@ -5314,7 +5358,7 @@
 				)
 			)
 		)
-		(property "Sim.Name" "kicad_builtin_varistor"
+		(property "Case" ""
 			(at 226.06 132.08 0)
 			(hide yes)
 			(show_name no)
@@ -5325,7 +5369,7 @@
 				)
 			)
 		)
-		(property "Sim.Device" "SUBCKT"
+		(property "FT Position Offset" ""
 			(at 226.06 132.08 0)
 			(hide yes)
 			(show_name no)
@@ -5336,29 +5380,7 @@
 				)
 			)
 		)
-		(property "Sim.Pins" "1=A 2=B"
-			(at 226.06 132.08 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Params" "threshold=1k"
-			(at 226.06 132.08 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Library" "${KICAD9_SYMBOL_DIR}/Simulation_SPICE.sp"
+		(property "FT Rotation Offset" ""
 			(at 226.06 132.08 0)
 			(hide yes)
 			(show_name no)
@@ -5516,7 +5538,7 @@
 				(justify right)
 			)
 		)
-		(property "JLCPCB BOM" "1"
+		(property "Case" ""
 			(at 162.56 125.73 0)
 			(hide yes)
 			(show_name no)
@@ -5527,7 +5549,18 @@
 				)
 			)
 		)
-		(property "Package" "0805/2012"
+		(property "FT Position Offset" ""
+			(at 162.56 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "FT Rotation Offset" ""
 			(at 162.56 125.73 0)
 			(hide yes)
 			(show_name no)
@@ -5685,8 +5718,8 @@
 				(justify left)
 			)
 		)
-		(property "JLCPCB BOM" "1"
-			(at 68.58 87.63 0)
+		(property "Case" ""
+			(at 68.58 87.63 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5696,8 +5729,8 @@
 				)
 			)
 		)
-		(property "Package" "0603/1608"
-			(at 68.58 87.63 0)
+		(property "FT Position Offset" ""
+			(at 68.58 87.63 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5707,8 +5740,8 @@
 				)
 			)
 		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 68.58 87.63 0)
+		(property "FT Rotation Offset" ""
+			(at 68.58 87.63 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5855,28 +5888,6 @@
 				)
 			)
 		)
-		(property "JLCPCB BOM" "1"
-			(at 226.06 81.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Package" "9.5X5.08mm"
-			(at 226.06 81.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "LCSC Part #" "C2761646"
 			(at 226.06 81.28 0)
 			(hide yes)
@@ -5888,7 +5899,7 @@
 				)
 			)
 		)
-		(property "Sim.Name" "kicad_builtin_varistor"
+		(property "Case" ""
 			(at 226.06 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -5899,7 +5910,7 @@
 				)
 			)
 		)
-		(property "Sim.Device" "SUBCKT"
+		(property "FT Position Offset" ""
 			(at 226.06 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -5910,29 +5921,7 @@
 				)
 			)
 		)
-		(property "Sim.Pins" "1=A 2=B"
-			(at 226.06 81.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Params" "threshold=1k"
-			(at 226.06 81.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Library" "${KICAD9_SYMBOL_DIR}/Simulation_SPICE.sp"
+		(property "FT Rotation Offset" ""
 			(at 226.06 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -6025,17 +6014,6 @@
 				)
 			)
 		)
-		(property "JLCPCB BOM" "1"
-			(at 256.54 115.57 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "LCSC Part #" "C2898701"
 			(at 256.54 115.57 0)
 			(hide yes)
@@ -6069,17 +6047,6 @@
 				)
 			)
 		)
-		(property "Package" ""
-			(at 256.54 115.57 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Technology" ""
 			(at 256.54 115.57 0)
 			(hide yes)
@@ -6103,6 +6070,39 @@
 			)
 		)
 		(property "Vendor PN" "C2898701"
+			(at 256.54 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Case" ""
+			(at 256.54 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "FT Position Offset" ""
+			(at 256.54 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "FT Rotation Offset" "180"
 			(at 256.54 115.57 0)
 			(hide yes)
 			(show_name no)
@@ -6266,7 +6266,7 @@
 				(justify right)
 			)
 		)
-		(property "JLCPCB BOM" "1"
+		(property "Case" ""
 			(at 162.56 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -6277,7 +6277,18 @@
 				)
 			)
 		)
-		(property "Package" "0805/2012"
+		(property "FT Position Offset" ""
+			(at 162.56 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "FT Rotation Offset" ""
 			(at 162.56 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -6513,8 +6524,8 @@
 				(justify left)
 			)
 		)
-		(property "JLCPCB BOM" "1"
-			(at 171.45 133.35 0)
+		(property "Case" ""
+			(at 171.45 133.35 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6524,8 +6535,8 @@
 				)
 			)
 		)
-		(property "Package" "SOD-123"
-			(at 171.45 133.35 0)
+		(property "FT Position Offset" ""
+			(at 171.45 133.35 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6535,19 +6546,8 @@
 				)
 			)
 		)
-		(property "Sim.Device" "D"
-			(at 171.45 133.35 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 171.45 133.35 0)
+		(property "FT Rotation Offset" ""
+			(at 171.45 133.35 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6782,8 +6782,8 @@
 				(justify left)
 			)
 		)
-		(property "JLCPCB BOM" "1"
-			(at 77.47 130.81 0)
+		(property "Case" ""
+			(at 77.47 130.81 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6793,8 +6793,8 @@
 				)
 			)
 		)
-		(property "Package" "SOD-123"
-			(at 77.47 130.81 0)
+		(property "FT Position Offset" ""
+			(at 77.47 130.81 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6804,19 +6804,8 @@
 				)
 			)
 		)
-		(property "Sim.Device" "D"
-			(at 77.47 130.81 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 77.47 130.81 0)
+		(property "FT Rotation Offset" ""
+			(at 77.47 130.81 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6973,8 +6962,8 @@
 				(justify left)
 			)
 		)
-		(property "JLCPCB BOM" "1"
-			(at 162.56 90.17 0)
+		(property "Case" ""
+			(at 162.56 90.17 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6984,8 +6973,8 @@
 				)
 			)
 		)
-		(property "Package" "0603/1608"
-			(at 162.56 90.17 0)
+		(property "FT Position Offset" ""
+			(at 162.56 90.17 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6995,8 +6984,8 @@
 				)
 			)
 		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 162.56 90.17 0)
+		(property "FT Rotation Offset" ""
+			(at 162.56 90.17 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7088,17 +7077,6 @@
 				)
 			)
 		)
-		(property "JLCPCB BOM" "1"
-			(at 194.31 132.08 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "LCSC Part #" "C185801"
 			(at 205.74 133.35 0)
 			(show_name no)
@@ -7132,17 +7110,6 @@
 				)
 			)
 		)
-		(property "Package" ""
-			(at 194.31 132.08 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Technology" ""
 			(at 194.31 132.08 0)
 			(hide yes)
@@ -7166,6 +7133,39 @@
 			)
 		)
 		(property "Vendor PN" "C185801"
+			(at 194.31 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Case" ""
+			(at 194.31 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "FT Position Offset" ""
+			(at 194.31 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "FT Rotation Offset" ""
 			(at 194.31 132.08 0)
 			(hide yes)
 			(show_name no)
@@ -7330,8 +7330,8 @@
 				(justify left)
 			)
 		)
-		(property "JLCPCB BOM" "1"
-			(at 171.45 82.55 0)
+		(property "Case" ""
+			(at 171.45 82.55 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7341,8 +7341,8 @@
 				)
 			)
 		)
-		(property "Package" "SOD-123"
-			(at 171.45 82.55 0)
+		(property "FT Position Offset" ""
+			(at 171.45 82.55 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7352,19 +7352,8 @@
 				)
 			)
 		)
-		(property "Sim.Device" "D"
-			(at 171.45 82.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 171.45 82.55 0)
+		(property "FT Rotation Offset" ""
+			(at 171.45 82.55 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7511,28 +7500,6 @@
 				)
 			)
 		)
-		(property "JLCPCB BOM" "1"
-			(at 133.35 83.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Package" "9.5X5.08mm"
-			(at 133.35 83.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "LCSC Part #" "C2761646"
 			(at 133.35 83.82 0)
 			(hide yes)
@@ -7544,7 +7511,7 @@
 				)
 			)
 		)
-		(property "Sim.Name" "kicad_builtin_varistor"
+		(property "Case" ""
 			(at 133.35 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -7555,7 +7522,7 @@
 				)
 			)
 		)
-		(property "Sim.Device" "SUBCKT"
+		(property "FT Position Offset" ""
 			(at 133.35 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -7566,29 +7533,7 @@
 				)
 			)
 		)
-		(property "Sim.Pins" "1=A 2=B"
-			(at 133.35 83.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Params" "threshold=1k"
-			(at 133.35 83.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Library" "${KICAD9_SYMBOL_DIR}/Simulation_SPICE.sp"
+		(property "FT Rotation Offset" ""
 			(at 133.35 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -7681,17 +7626,6 @@
 				)
 			)
 		)
-		(property "JLCPCB BOM" "1"
-			(at 100.33 78.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "LCSC Part #" "C185801"
 			(at 111.76 80.01 0)
 			(show_name no)
@@ -7725,17 +7659,6 @@
 				)
 			)
 		)
-		(property "Package" ""
-			(at 100.33 78.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Technology" ""
 			(at 100.33 78.74 0)
 			(hide yes)
@@ -7759,6 +7682,39 @@
 			)
 		)
 		(property "Vendor PN" "C185801"
+			(at 100.33 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Case" ""
+			(at 100.33 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "FT Position Offset" ""
+			(at 100.33 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "FT Rotation Offset" ""
 			(at 100.33 78.74 0)
 			(hide yes)
 			(show_name no)
@@ -7912,28 +7868,6 @@
 				)
 			)
 		)
-		(property "JLCPCB BOM" "1"
-			(at 133.35 134.62 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Package" "9.5X5.08mm"
-			(at 133.35 134.62 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "LCSC Part #" "C2761646"
 			(at 133.35 134.62 0)
 			(hide yes)
@@ -7945,7 +7879,7 @@
 				)
 			)
 		)
-		(property "Sim.Name" "kicad_builtin_varistor"
+		(property "Case" ""
 			(at 133.35 134.62 0)
 			(hide yes)
 			(show_name no)
@@ -7956,7 +7890,7 @@
 				)
 			)
 		)
-		(property "Sim.Device" "SUBCKT"
+		(property "FT Position Offset" ""
 			(at 133.35 134.62 0)
 			(hide yes)
 			(show_name no)
@@ -7967,29 +7901,7 @@
 				)
 			)
 		)
-		(property "Sim.Pins" "1=A 2=B"
-			(at 133.35 134.62 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Params" "threshold=1k"
-			(at 133.35 134.62 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Library" "${KICAD9_SYMBOL_DIR}/Simulation_SPICE.sp"
+		(property "FT Rotation Offset" ""
 			(at 133.35 134.62 0)
 			(hide yes)
 			(show_name no)

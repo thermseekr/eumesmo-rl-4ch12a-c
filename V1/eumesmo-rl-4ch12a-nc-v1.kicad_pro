@@ -674,6 +674,12 @@
           "show": true
         },
         {
+          "group_by": false,
+          "label": "Qty",
+          "name": "${QUANTITY}",
+          "show": true
+        },
+        {
           "group_by": true,
           "label": "Value",
           "name": "Value",
@@ -681,9 +687,15 @@
         },
         {
           "group_by": false,
+          "label": "Case",
+          "name": "Case",
+          "show": true
+        },
+        {
+          "group_by": false,
           "label": "Datasheet",
           "name": "Datasheet",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
@@ -693,33 +705,15 @@
         },
         {
           "group_by": false,
-          "label": "Qty",
-          "name": "${QUANTITY}",
-          "show": true
-        },
-        {
-          "group_by": true,
           "label": "DNP",
           "name": "${DNP}",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
           "label": "#",
           "name": "${ITEM_NUMBER}",
           "show": false
-        },
-        {
-          "group_by": false,
-          "label": "JLCPCB BOM",
-          "name": "JLCPCB BOM",
-          "show": true
-        },
-        {
-          "group_by": false,
-          "label": "LCSC Part #",
-          "name": "LCSC Part #",
-          "show": true
         },
         {
           "group_by": false,
@@ -732,42 +726,6 @@
           "label": "Mfr PN",
           "name": "Mfr PN",
           "show": true
-        },
-        {
-          "group_by": false,
-          "label": "Package",
-          "name": "Package",
-          "show": true
-        },
-        {
-          "group_by": false,
-          "label": "Sim.Device",
-          "name": "Sim.Device",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Sim.Library",
-          "name": "Sim.Library",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Sim.Name",
-          "name": "Sim.Name",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Sim.Params",
-          "name": "Sim.Params",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Sim.Pins",
-          "name": "Sim.Pins",
-          "show": false
         },
         {
           "group_by": false,
@@ -789,9 +747,27 @@
         },
         {
           "group_by": false,
+          "label": "LCSC Part #",
+          "name": "LCSC Part #",
+          "show": true
+        },
+        {
+          "group_by": false,
           "label": "Description",
           "name": "Description",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "FT Rotation Offset",
+          "name": "FT Rotation Offset",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "FT Position Offset",
+          "name": "FT Position Offset",
+          "show": true
         }
       ],
       "filter_string": "",
