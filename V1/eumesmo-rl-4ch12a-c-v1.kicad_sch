@@ -4497,7 +4497,7 @@
 				)
 			)
 		)
-		(property "Mfr" "Wago"
+		(property "Mfr" "Cixi Kefa Elec"
 			(at 27.94 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -4530,7 +4530,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C2765063"
+		(property "LCSC Part #" "C475156"
 			(at 27.94 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -4541,7 +4541,7 @@
 				)
 			)
 		)
-		(property "Mfr PN" "250-204"
+		(property "Mfr PN" "KF250-3.5-4P-1"
 			(at 27.94 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -4552,7 +4552,7 @@
 				)
 			)
 		)
-		(property "Vendor PN" "C2765063"
+		(property "Vendor PN" "C475156"
 			(at 27.94 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -5566,7 +5566,7 @@
 				)
 			)
 		)
-		(property "Mfr" "Wago"
+		(property "Mfr" "Cixi Kefa Elec"
 			(at 27.94 181.61 0)
 			(hide yes)
 			(show_name no)
@@ -5599,7 +5599,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C2765061"
+		(property "LCSC Part #" "C475154"
 			(at 27.94 181.61 0)
 			(hide yes)
 			(show_name no)
@@ -5610,7 +5610,7 @@
 				)
 			)
 		)
-		(property "Mfr PN" "250-202"
+		(property "Mfr PN" "KF250-3.5-2P-1"
 			(at 27.94 181.61 0)
 			(hide yes)
 			(show_name no)
@@ -5621,7 +5621,7 @@
 				)
 			)
 		)
-		(property "Vendor PN" "C2765061"
+		(property "Vendor PN" "C475154"
 			(at 27.94 181.61 0)
 			(hide yes)
 			(show_name no)

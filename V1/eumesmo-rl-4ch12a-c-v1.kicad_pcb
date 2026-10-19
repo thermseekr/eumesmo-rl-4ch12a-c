@@ -2627,7 +2627,7 @@
 				)
 			)
 		)
-		(property "Mfr" "Wago"
+		(property "Mfr" "Cixi Kefa Elec"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -2679,7 +2679,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C2765063"
+		(property "LCSC Part #" "C475156"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -2692,7 +2692,7 @@
 				)
 			)
 		)
-		(property "Mfr PN" "250-204"
+		(property "Mfr PN" "KF250-3.5-4P-1"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -2705,7 +2705,7 @@
 				)
 			)
 		)
-		(property "Vendor PN" "C2765063"
+		(property "Vendor PN" "C475156"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -10499,7 +10499,7 @@
 				)
 			)
 		)
-		(property "Mfr" "Wago"
+		(property "Mfr" "Cixi Kefa Elec"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -10551,7 +10551,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C2765061"
+		(property "LCSC Part #" "C475154"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -10564,7 +10564,7 @@
 				)
 			)
 		)
-		(property "Mfr PN" "250-202"
+		(property "Mfr PN" "KF250-3.5-2P-1"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -10577,7 +10577,7 @@
 				)
 			)
 		)
-		(property "Vendor PN" "C2765061"
+		(property "Vendor PN" "C475154"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -15002,14 +15002,6 @@
 		(uuid "49c2cab4-df85-4dd2-987c-859de992ebdf")
 	)
 	(segment
-		(start 184.75 67.25)
-		(end 184.75 70.25)
-		(width 0.75)
-		(layer "F.Cu")
-		(net "+24V")
-		(uuid "4fe3320d-c05e-4786-a648-9c159421e33b")
-	)
-	(segment
 		(start 160.75 64.3375)
 		(end 158.75 64.3375)
 		(width 0.75)
@@ -15024,6 +15016,14 @@
 		(layer "F.Cu")
 		(net "+24V")
 		(uuid "58bd149b-c819-47b1-a4d9-d387c7ca8c32")
+	)
+	(segment
+		(start 160.75 64.3375)
+		(end 181.8375 64.3375)
+		(width 0.75)
+		(layer "F.Cu")
+		(net "+24V")
+		(uuid "5fab1298-e8a6-4892-8a8f-0c6abe9cde31")
 	)
 	(segment
 		(start 178.25 82.65)
@@ -15050,14 +15050,6 @@
 		(uuid "a8655017-a464-4f2b-a690-9357a9404a2c")
 	)
 	(segment
-		(start 160.75 64.3375)
-		(end 182.3375 64.3375)
-		(width 0.75)
-		(layer "F.Cu")
-		(net "+24V")
-		(uuid "ad0a7761-934a-4aa4-a92c-4619a3a7707e")
-	)
-	(segment
 		(start 156.75 64.3375)
 		(end 154.75 64.3375)
 		(width 0.75)
@@ -15066,12 +15058,12 @@
 		(uuid "b2633b68-603d-4d9c-88ca-85dc722ebb0e")
 	)
 	(segment
-		(start 182.3375 64.8375)
-		(end 184.75 67.25)
+		(start 184.75 67.25)
+		(end 184.75 70.25)
 		(width 0.75)
 		(layer "F.Cu")
 		(net "+24V")
-		(uuid "b96cc962-02cd-4813-b464-5d9815b503bf")
+		(uuid "b7d158a0-08ab-4eea-8137-4ca838ee6137")
 	)
 	(segment
 		(start 161.5 84.7)
@@ -15096,6 +15088,14 @@
 		(layer "F.Cu")
 		(net "+24V")
 		(uuid "e2f83210-e01a-4db8-b931-c9c074f13dc0")
+	)
+	(segment
+		(start 181.8375 64.3375)
+		(end 184.75 67.25)
+		(width 0.75)
+		(layer "F.Cu")
+		(net "+24V")
+		(uuid "eca5c146-daa4-40fb-a646-119768f6bcc3")
 	)
 	(segment
 		(start 169.75 77.75)
